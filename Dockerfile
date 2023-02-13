@@ -1,4 +1,4 @@
 FROM ubuntu:focal
-RUN sudo apt update 
+RUN apt update 
 ENTRYPOINT [ "echo","Hello" ]
 # CMD [ "SubrAt" ]
